@@ -1,12 +1,10 @@
-# Python program to read
-# json file
-
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import json
 import pandas as pd
 
-
+# function: convertFileToSheet
+## reads and convert JSON file to google sheet
 def convertFileToSheet():
     
     scope =["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
