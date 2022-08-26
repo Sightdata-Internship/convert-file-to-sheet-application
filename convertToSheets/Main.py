@@ -4,7 +4,7 @@ import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread_dataframe as gd
-
+from gspread_dataframe import set_with_dataframe
 
 # function: convertFileToSheet
 ## reads and convert JSON file to google sheet
@@ -19,15 +19,16 @@ def convertFileToSheet():
     #read JSON file into dataframe 
     file = open('Sample-employee-JSON-data.json')
     data = json.load(file)
-    df = pd.DataFrame.from_dict(pd.json_normalize(data), orient='columns')
     
-    #insert JSON file into sheet as a dataframe
-    for i in df['Employees']:
-        existing = gd.get_as_dataframe(sheet)
-        updated = existing.append(i)
-        gd.set_with_dataframe(sheet, updated)
-    # headers={'Content-Type': 'application/json'}
-
+    #add all employee info into an existing dataframe
+    existing = pd.DataFrame()
+    for i in data['Employees']:
+        df = pd.DataFrame.from_dict(pd.json_normalize(i), orient='columns')
+        existing = existing.append(df)
+    
+    #add dataframe to Google Sheet    
+    set_with_dataframe(sheet, existing)    
+    
 def main():
     convertFileToSheet()
 
