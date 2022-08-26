@@ -1,0 +1,34 @@
+{
+    "Employees": [
+    {
+        "userId": "henry",
+        "jobTitle": "Project Manager",
+        "firstName": "Henry",
+        "lastName": "Hong",
+        "employeeCode": "E4",
+        "region": "CA",
+        "phoneNumber": "7891234",
+        "emailAddress": "henry.hong@learningcontainer.com"
+    },
+    {
+        "userId": "joshua",
+        "jobTitle": "Developer",
+        "firstName": "Joshua",
+        "lastName": "Elias",
+        "employeeCode": "E5",
+        "region": "CA",
+        "phoneNumber": "3333333",
+        "emailAddress": "joshua.elias@learningcontainer.com"
+    },
+    {
+        "userId": "mina",
+        "jobTitle": "Developer",
+        "firstName": "Mina",
+        "lastName": "Pham",
+        "employeeCode": "E6",
+        "region": "CA",
+        "phoneNumber": "4444444",
+        "emailAddress": "mina.pham@learningcontainer.com"
+    }
+    ]
+}
