@@ -4,7 +4,6 @@ DESCRIPTION:
 
 ADDITION REQUIREMENTS:
 - gspread with oauth2client installation is needed to run the code
-- link to Google Sheet: https://docs.google.com/spreadsheets/d/1qKbCKl2nkU7JG2UGlk-1OfbFEQyqkI5VJICNpn1ZD3U/edit?usp=sharing
-- link to Google AppSheet App: https://www.appsheet.com/start/e07ddd5e-b109-4d4f-aa47-8d0c273864a3
-- link to install Google AppSheet App: https://www.appsheet.com/newshortcut/e07ddd5e-b109-4d4f-aa47-8d0c273864a3
-
+- link to Google Sheet: https://docs.google.com/spreadsheets/d/1bqg6GDAEL8cshyJOZi_dLq0QtG012E6rnop5yxoLdic/edit?usp=sharing
+- link to Google AppSheet App: https://www.appsheet.com/start/980a28a6-f06e-4251-917d-b724facbc4bb
+- link to install Google AppSheet App: https://www.appsheet.com/newshortcut/980a28a6-f06e-4251-917d-b724facbc4bb
