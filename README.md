@@ -1,6 +1,7 @@
 # Google app sheet app
 DESCRIPTION: 
-- This application is created to convert JSON file of employee information into Google sheet and update the sheet using Python. The code interacts with a Google AppSheet app to update application of the employee.
+- This application will run at the same time with on-site computer and let user log in or sign up if they need access to the computer site (Main-2.py). The information that user enters will be updated on the sheet as well as the time record that they use the computer. The Google Appsheet app update the adjustment from the sheet and push a notification for the app's user, let them know who logs in the system at what time and date.
+- It converts JSON file of employee information into Google sheet and update the sheet using Python (Main.py). The code interacts with a Google AppSheet app to update information of the employee log-in time.
 
 ADDITION REQUIREMENTS:
 - gspread with oauth2client installation is needed to run the code
