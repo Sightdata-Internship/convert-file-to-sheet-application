@@ -8,3 +8,7 @@ ADDITION REQUIREMENTS:
 - link to Google Sheet: https://docs.google.com/spreadsheets/d/1bqg6GDAEL8cshyJOZi_dLq0QtG012E6rnop5yxoLdic/edit?usp=sharing
 - link to Google AppSheet App: https://www.appsheet.com/start/980a28a6-f06e-4251-917d-b724facbc4bb
 - link to install Google AppSheet App: https://www.appsheet.com/newshortcut/980a28a6-f06e-4251-917d-b724facbc4bb
+
+FUTHER ISSUES NEED INVESTIGATION:
+- The system ignores n/a value and does not require user to enter necessary information before continuing to process their request.
+- The Google Appsheet app requires payment update to access (pay-per-user).
