@@ -14,7 +14,7 @@ def convertFileToSheet():
     scope =["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
     creds = ServiceAccountCredentials.from_json_keyfile_name("tasksheets-360312-bbf002405e77.json", scope)
     employee = gspread.authorize(creds)
-    sheet = employee.open('Sight Data Employee').sheet1
+    sheet = employee.open('Sightdata Employee').get_worksheet(3)
     
     #read JSON file into dataframe 
     file = open('Sample-employee-JSON-data.json')
